@@ -45,9 +45,11 @@ export const metadata: Metadata = {
     title: "Stop doubting yourself. Start showing up. | Ella",
     description,
     locale: "en_US",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Ella | Confidence & Mindset Coach" }],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
+    images: ["/og-image.png"],
     title: "Stop doubting yourself. Start showing up. | Ella",
     description,
   },

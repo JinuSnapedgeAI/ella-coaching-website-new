@@ -9,7 +9,7 @@ html:has(.coach-theme) {
   --coach-blush: #f2d5cf; --coach-sage: #d5e2d6; --coach-lav: #e3dcef;
 }
 .coach-theme .intro__background, .bottom__background { display: none; }
-.coach-theme .main-image-1 { background: linear-gradient(135deg, #f2d5cf 0%, #e3dcef 50%, #d5e2d6 100%); }
+.coach-theme .main-image-1 { background: url("/img/art/hero.svg") center / cover no-repeat, #f2d5cf; }
 .coach-theme .coach-lead { max-width: 60rem; }
 .coach-theme .coach-card {
   background: var(--base-tint); border: 1px solid var(--stroke-elements);
@@ -144,3 +144,25 @@ html:has(.coach-theme) {
   }
   .coach-theme .coach-subtitle::after { animation: none; width: 8rem; }
 }
+
+/* Illustrations */
+.coach-theme .coach-art { display: block; width: 100%; height: auto; border-radius: var(--_radius-s); }
+.coach-theme .coach-card .coach-art { margin-bottom: 2rem; }
+.coach-theme .coach-art-wide { margin-bottom: 3.2rem; border-radius: var(--_radius); }
+.coach-theme .coach-portrait { border-radius: var(--_radius); max-width: 42rem; margin: 0 auto; }
+
+/* Buttons inside cards: fit the card width, single line */
+.coach-theme .coach-card .btn-default {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 6.4rem;
+  padding: 0 2.4rem;
+  line-height: 1.2;
+  font-size: 1.8rem;
+  white-space: nowrap;
+  border-radius: 10rem;
+}
+.coach-theme .coach-card .btn-default .btn-caption { line-height: 1.2; }
+.coach-theme .coach-card ul { margin-bottom: 2.4rem; }

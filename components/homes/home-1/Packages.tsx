@@ -1,4 +1,5 @@
 import HoverCursorEffect from "@/components/animation/HoverCursorEffect";
+import Image from "next/image";
 import data from "@/data/coach.json";
 import Section from "./Section";
 
@@ -21,7 +22,14 @@ export default function Packages() {
           <div key={p.name} className="col-12 col-lg-4 animate-in-up">
             <div className={"coach-card" + (p.featured ? " featured" : "")}>
               {p.featured && <span className="coach-badge">Most popular</span>}
-              <i className={p.icon + " big"} />
+              <Image
+                className="coach-art"
+                src={p.image}
+                alt={p.name + " package illustration"}
+                unoptimized
+                width={800}
+                height={500}
+              />
               <h3>{p.name}</h3>
               <p className="coach-price">{p.price}</p>
               <p className="small">{p.note}</p>

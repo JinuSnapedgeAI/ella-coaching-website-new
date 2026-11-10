@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A plant growing tall"><rect width="800" height="500" fill="#d5e2d6"/><circle cx="600" cy="140" r="90" fill="#fbe3c8"/><circle cx="200" cy="340" r="180" fill="#e3dcef" opacity=".8"/><path d="M0 430 Q200 400 400 430 T800 420 V500 H0Z" fill="#a9c3ad"/>
+<path d="M400 440 C395 340 405 260 400 130" stroke="#6f9475" stroke-width="12" stroke-linecap="round" fill="none"/>
+<g fill="#7fa886"><path d="M400 380 C320 380 280 330 270 290 C350 290 395 330 400 380Z"/><path d="M400 320 C480 320 520 270 530 230 C450 230 405 270 400 320Z"/><path d="M400 250 C330 250 300 210 290 170 C360 170 395 210 400 250Z"/></g>
+<path d="M400 130 C360 100 360 60 400 30 C440 60 440 100 400 130Z" fill="#eab7ae"/></svg>

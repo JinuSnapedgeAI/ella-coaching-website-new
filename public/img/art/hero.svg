@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" role="img" aria-label="A woman with raised arms greeting the sunrise on a soft hill">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e3dcef"/><stop offset=".55" stop-color="#f2d5cf"/><stop offset="1" stop-color="#f7e6d8"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff6e6" stop-opacity=".95"/><stop offset="1" stop-color="#fff6e6" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1400" height="1000" fill="url(#sky)"/>
+<circle cx="700" cy="520" r="420" fill="url(#glow)"/>
+<circle cx="700" cy="520" r="150" fill="#fbe3c8"/>
+<g fill="#fff" opacity=".7"><ellipse cx="220" cy="190" rx="130" ry="26"/><ellipse cx="300" cy="170" rx="90" ry="22"/><ellipse cx="1130" cy="260" rx="150" ry="28"/><ellipse cx="1220" cy="238" rx="90" ry="22"/></g>
+<path d="M0 700 C250 600 450 640 700 690 C950 740 1150 620 1400 680 V1000 H0Z" fill="#d9d2ea"/>
+<path d="M0 780 C300 700 520 760 760 770 C1020 780 1200 720 1400 770 V1000 H0Z" fill="#d5e2d6"/>
+<path d="M0 880 C300 830 600 880 900 860 C1100 845 1250 850 1400 870 V1000 H0Z" fill="#bcd2bf"/>
+<g transform="translate(700 770)">
+<path d="M-48 -10 C-40 -170 -30 -250 0 -260 C30 -250 40 -170 48 -10 C20 14 -20 14 -48 -10Z" fill="#8f7aa8"/>
+<path d="M-48 -230 C-110 -300 -140 -360 -150 -420" stroke="#f1c9b8" stroke-width="26" stroke-linecap="round" fill="none"/>
+<path d="M48 -230 C110 -300 140 -360 150 -420" stroke="#f1c9b8" stroke-width="26" stroke-linecap="round" fill="none"/>
+<circle cx="0" cy="-300" r="42" fill="#f1c9b8"/>
+<path d="M-44 -300 C-50 -355 0 -362 40 -340 C52 -325 48 -300 46 -270 C30 -300 0 -318 -44 -300Z" fill="#4a3f4f"/>
+</g>
+<g fill="#fff" opacity=".85"><circle cx="540" cy="360" r="5"/><circle cx="880" cy="330" r="4"/><circle cx="1010" cy="460" r="5"/><circle cx="410" cy="480" r="4"/></g>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 420" role="img" aria-label="Six stepping stones rising toward the sun, one for each week"><defs><linearGradient id="g" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#e3dcef"/><stop offset="1" stop-color="#f2d5cf"/></linearGradient></defs>
+<rect width="1400" height="420" fill="url(#g)"/><circle cx="1230" cy="70" r="60" fill="#fbe3c8"/>
+<g fill="#fffaf6"><rect x="80" y="320" width="180" height="40" rx="20"/><rect x="290" y="280" width="180" height="40" rx="20"/><rect x="500" y="240" width="180" height="40" rx="20"/><rect x="710" y="200" width="180" height="40" rx="20"/><rect x="920" y="160" width="180" height="40" rx="20"/></g>
+<rect x="1130" y="120" width="180" height="40" rx="20" fill="#d5e2d6"/>
+<g fill="#6a6070" font-family="Arial, sans-serif" font-size="18" text-anchor="middle"><text x="170" y="346">Week 1</text><text x="380" y="306">Week 2</text><text x="590" y="266">Week 3</text><text x="800" y="226">Week 4</text><text x="1010" y="186">Week 5</text><text x="1220" y="146">Week 6</text></g></svg>

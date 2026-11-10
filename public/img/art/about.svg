@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Illustrated portrait of Ella, a friendly confidence coach">
+<rect width="800" height="1000" fill="#f2d5cf"/>
+<path d="M120 1000 V420 C120 210 260 90 400 90 C540 90 680 210 680 420 V1000Z" fill="#e3dcef"/>
+<circle cx="610" cy="250" r="70" fill="#fbe3c8"/>
+<g fill="#d5e2d6"><circle cx="190" cy="800" r="120"/><circle cx="640" cy="850" r="90"/></g>
+<path d="M170 1000 C170 800 260 740 400 740 C540 740 630 800 630 1000Z" fill="#a9c3ad"/>
+<path d="M330 740 L400 860 L470 740Z" fill="#fffaf6"/>
+<rect x="362" y="620" width="76" height="130" rx="34" fill="#e8b9a6"/>
+<ellipse cx="400" cy="500" rx="125" ry="150" fill="#f1c9b8"/>
+<path d="M270 500 C250 330 340 290 410 300 C500 308 560 370 530 520 C515 440 470 395 400 395 C330 395 290 440 270 500Z" fill="#4a3f4f"/>
+<path d="M270 500 C240 560 250 650 300 700 C285 620 285 560 290 520Z" fill="#4a3f4f"/>
+<path d="M530 500 C560 560 550 650 500 700 C515 620 515 560 510 520Z" fill="#4a3f4f"/>
+<path d="M352 560 Q400 600 448 560" stroke="#b86f64" stroke-width="8" stroke-linecap="round" fill="none"/>
+<circle cx="350" cy="505" r="8" fill="#4a3f4f"/><circle cx="450" cy="505" r="8" fill="#4a3f4f"/>
+<circle cx="335" cy="545" r="16" fill="#eaa79b" opacity=".5"/><circle cx="465" cy="545" r="16" fill="#eaa79b" opacity=".5"/>
+</svg>

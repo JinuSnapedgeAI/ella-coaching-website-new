@@ -62,7 +62,8 @@
         "Personal confidence action plan",
         "Email follow-up for 7 days"
       ],
-      "featured": false
+      "featured": false,
+      "image": "/img/art/spark.svg"
     },
     {
       "name": "Bloom",
@@ -75,7 +76,8 @@
         "Unlimited chat support between sessions",
         "Final progress review"
       ],
-      "featured": true
+      "featured": true,
+      "image": "/img/art/bloom.svg"
     },
     {
       "name": "Flourish",
@@ -88,7 +90,8 @@
         "Monthly accountability check-ins",
         "Priority scheduling"
       ],
-      "featured": false
+      "featured": false,
+      "image": "/img/art/flourish.svg"
     }
   ],
   "faq": [
