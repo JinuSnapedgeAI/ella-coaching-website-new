@@ -1,0 +1,146 @@
+/* Soft, calming theme for the coach site (applies only when .coach-theme is on the page) */
+html:has(.coach-theme) {
+  --base: #f7f0ea; --base-rgb: 247, 240, 234; --base-shade: #ecdcd2; --base-tint: #fcf8f4;
+  --stroke-controls: #4a3f4f; --stroke-elements: #dccbc2;
+  --font-weight-base: 400; --font-weight-medium: 600;
+  --t-bright: #3d3342; --t-medium: #6a6070; --t-muted: #9b919f;
+  --t-opp-bright: #fffaf6; --t-opp-medium: #f0e4dc; --t-opp-muted: #cbbdb5;
+  --neutral-bright: #3d3342;
+  --coach-blush: #f2d5cf; --coach-sage: #d5e2d6; --coach-lav: #e3dcef;
+}
+.coach-theme .intro__background, .bottom__background { display: none; }
+.coach-theme .main-image-1 { background: linear-gradient(135deg, #f2d5cf 0%, #e3dcef 50%, #d5e2d6 100%); }
+.coach-theme .coach-lead { max-width: 60rem; }
+.coach-theme .coach-card {
+  background: var(--base-tint); border: 1px solid var(--stroke-elements);
+  border-radius: var(--_radius); padding: 3.2rem; height: 100%;
+}
+.coach-theme .coach-card h3, .coach-theme .coach-card h4 { margin-bottom: 1.2rem; }
+.coach-theme .coach-card.featured { background: var(--coach-blush); border-color: transparent; }
+.coach-theme .coach-card ul { list-style: none; padding: 0; margin: 2rem 0 3rem; }
+.coach-theme .coach-card li { padding: 0.8rem 0; border-top: 1px solid var(--stroke-elements); }
+.coach-theme .coach-card i.big { font-size: 4.4rem; color: var(--t-bright); }
+.coach-theme .coach-price { font: normal 300 4.6rem/1 var(--_font-accent); color: var(--t-bright); }
+.coach-theme .coach-badge {
+  display: inline-block; padding: 0.4rem 1.2rem; border-radius: 10rem;
+  background: var(--coach-sage); color: var(--t-bright); font-size: 1.3rem; margin-bottom: 1.6rem;
+}
+.coach-theme .ba-before { background: var(--coach-lav); border-radius: var(--_radius-s); padding: 1.8rem; margin-bottom: 1.2rem; }
+.coach-theme .ba-after { background: var(--coach-sage); border-radius: var(--_radius-s); padding: 1.8rem; }
+.coach-theme .ba-label { font-size: 1.2rem; letter-spacing: .12em; text-transform: uppercase; color: var(--t-muted); display: block; margin-bottom: .6rem; }
+.coach-theme .coach-week { font-size: 1.3rem; letter-spacing: .12em; text-transform: uppercase; color: var(--t-muted); }
+.coach-theme .coach-form { display: flex; gap: 1.2rem; flex-wrap: wrap; margin-top: 2rem; }
+.coach-theme .coach-form input {
+  flex: 1 1 24rem; padding: 1.6rem 2rem; border-radius: 10rem; border: 1px solid var(--stroke-elements);
+  background: var(--base-tint); color: var(--t-bright); font-size: 1.6rem;
+}
+.coach-theme .coach-row > [class*="col"] { margin-bottom: 2.4rem; }
+
+/* FAQ */
+.coach-theme .coach-faq { display: grid; gap: 1.2rem; }
+.coach-theme .coach-faq .coach-card { height: auto; padding: 2rem 2.4rem; }
+.coach-theme .coach-faq summary { cursor: pointer; list-style: none; }
+.coach-theme .coach-faq summary::-webkit-details-marker { display: none; }
+.coach-theme .coach-faq summary h3 { margin: 0; font-size: 2rem; }
+.coach-theme .coach-faq details[open] summary { margin-bottom: 1.2rem; }
+
+/* Responsive */
+.coach-theme img, .coach-theme .coach-card { max-width: 100%; }
+.coach-theme .coach-card { overflow-wrap: anywhere; }
+@media (max-width: 1199px) {
+  .coach-theme .coach-card { padding: 2.6rem; }
+}
+@media (max-width: 767px) {
+  .coach-theme .coach-card { padding: 2rem; border-radius: var(--_radius-s); }
+  .coach-theme .coach-price { font-size: 3.6rem; }
+  .coach-theme .coach-card i.big { font-size: 3.6rem; }
+  .coach-theme .coach-form input { flex-basis: 100%; }
+  .coach-theme .coach-row > [class*="col"] { margin-bottom: 1.6rem; }
+  .coach-theme .coach-faq summary h3 { font-size: 1.7rem; }
+  .coach-theme .main-image-1 { min-height: 22rem; }
+}
+@media (max-width: 400px) {
+  .coach-theme .coach-card { padding: 1.6rem; }
+}
+
+/* Hero headline: sized for a longer sentence so it never overflows the top of the screen */
+.coach-theme .headline__title {
+  font-size: clamp(3.8rem, 5.4vw, 10.5rem);
+  line-height: 1.1;
+  overflow-wrap: break-word;
+}
+@media (min-width: 1200px) {
+  .coach-theme .main__intro,
+  .coach-theme .main__intro .fullheight-desktop { min-height: 70vh; }
+}
+@media (max-width: 480px) {
+  .coach-theme .headline__title { font-size: 3.6rem; }
+}
+
+/* Hero letter animation */
+.coach-theme .coach-line { display: inline; }
+.coach-theme .coach-word { display: inline-block; white-space: nowrap; }
+.coach-theme .coach-letter {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(0.6em) rotate(6deg);
+  filter: blur(8px);
+  animation: coach-letter-in 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.coach-theme .coach-letter:hover { transform: translateY(-0.08em) scale(1.08); color: #c98f86; }
+.coach-theme .coach-line-accent .coach-letter {
+  animation-name: coach-letter-in, coach-shimmer;
+  animation-duration: 0.9s, 6s;
+  animation-delay: inherit, 3s;
+  animation-iteration-count: 1, infinite;
+}
+@keyframes coach-letter-in {
+  60% { filter: blur(0); }
+  to { opacity: 1; transform: none; filter: blur(0); }
+}
+@keyframes coach-shimmer {
+  0%, 12%, 100% { color: inherit; }
+  6% { color: #c98f86; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .coach-theme .coach-letter { animation: none; opacity: 1; transform: none; filter: none; }
+}
+
+/* Hero supporting text transitions */
+.coach-theme .coach-subtitle {
+  position: relative;
+  opacity: 0;
+  animation: coach-subtitle-in 1.1s cubic-bezier(0.22, 1, 0.36, 1) 0.1s forwards;
+}
+.coach-theme .coach-subtitle::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 0;
+  margin-top: 1.2rem;
+  background: var(--stroke-controls);
+  animation: coach-line-grow 1.2s cubic-bezier(0.22, 1, 0.36, 1) 0.9s forwards;
+}
+.coach-theme .coach-fade-btn {
+  opacity: 0;
+  transform: translateY(2.4rem);
+  animation: coach-rise 1s cubic-bezier(0.22, 1, 0.36, 1) 1.9s forwards;
+}
+.coach-theme .coach-fade-image {
+  opacity: 0;
+  transform: translateY(3rem) scale(0.97);
+  animation: coach-rise 1.3s cubic-bezier(0.22, 1, 0.36, 1) 2.2s forwards;
+}
+@keyframes coach-subtitle-in {
+  from { opacity: 0; transform: translateX(-2.4rem); letter-spacing: 0.35em; filter: blur(6px); }
+  to { opacity: 1; transform: none; letter-spacing: normal; filter: blur(0); }
+}
+@keyframes coach-line-grow { to { width: 8rem; } }
+@keyframes coach-rise { to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .coach-theme .coach-subtitle, .coach-theme .coach-fade-btn, .coach-theme .coach-fade-image {
+    animation: none; opacity: 1; transform: none;
+  }
+  .coach-theme .coach-subtitle::after { animation: none; width: 8rem; }
+}

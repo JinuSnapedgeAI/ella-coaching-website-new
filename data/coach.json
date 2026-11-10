@@ -1,0 +1,116 @@
+{
+  "program": [
+    {
+      "week": "Week 1",
+      "title": "Find your starting point",
+      "text": "Map where self-doubt shows up, spot your inner-critic patterns and set one clear, gentle intention."
+    },
+    {
+      "week": "Week 2",
+      "title": "Quiet the inner critic",
+      "text": "Learn simple reframing tools to answer negative self-talk with something kinder and truer."
+    },
+    {
+      "week": "Week 3",
+      "title": "Build self-trust",
+      "text": "Keep small promises to yourself with tiny daily actions that add up to real evidence."
+    },
+    {
+      "week": "Week 4",
+      "title": "Speak up and set boundaries",
+      "text": "Practice saying what you need, saying no without guilt and asking for what you want."
+    },
+    {
+      "week": "Week 5",
+      "title": "Handle fear and setbacks",
+      "text": "Turn nerves into fuel and bounce back faster when things don't go to plan."
+    },
+    {
+      "week": "Week 6",
+      "title": "Show up, for good",
+      "text": "Lock in your routines, celebrate how far you've come and plan your next chapter."
+    }
+  ],
+  "transformations": [
+    {
+      "name": "Maya, 29",
+      "role": "Marketing coordinator",
+      "before": "Rehearsed every comment for hours and stayed silent in meetings.",
+      "after": "Leads her team's weekly update and just negotiated a promotion."
+    },
+    {
+      "name": "Priya, 34",
+      "role": "New manager",
+      "before": "Felt like a fraud and said yes to everything to be liked.",
+      "after": "Sets clear boundaries, delegates with ease and sleeps through the night."
+    },
+    {
+      "name": "Jordan, 41",
+      "role": "Career changer",
+      "before": "Spent two years talking himself out of applying.",
+      "after": "Switched careers in four months and says he finally trusts his own voice."
+    }
+  ],
+  "packages": [
+    {
+      "name": "Spark",
+      "price": "$149",
+      "note": "One-time session",
+      "icon": "ph-thin ph-sparkle",
+      "features": [
+        "90-minute 1:1 clarity session",
+        "Personal confidence action plan",
+        "Email follow-up for 7 days"
+      ],
+      "featured": false
+    },
+    {
+      "name": "Bloom",
+      "price": "$690",
+      "note": "6-week program",
+      "icon": "ph-thin ph-flower-lotus",
+      "features": [
+        "6 weekly 60-minute 1:1 sessions",
+        "Workbook and daily practices",
+        "Unlimited chat support between sessions",
+        "Final progress review"
+      ],
+      "featured": true
+    },
+    {
+      "name": "Flourish",
+      "price": "$1,190",
+      "note": "12 weeks",
+      "icon": "ph-thin ph-plant",
+      "features": [
+        "12 weekly 1:1 sessions",
+        "Everything in Bloom",
+        "Monthly accountability check-ins",
+        "Priority scheduling"
+      ],
+      "featured": false
+    }
+  ],
+  "faq": [
+    {
+      "q": "Who is confidence coaching for?",
+      "a": "It's for capable people who second-guess themselves, struggle to speak up, feel like a fraud at work or keep putting off what matters. You don't need to be 'broken' to benefit."
+    },
+    {
+      "q": "How does the 6-week confidence program work?",
+      "a": "You meet Ella 1:1 once a week for six weeks, practice a few small daily exercises from your workbook and get chat support between sessions."
+    },
+    {
+      "q": "Is the confidence guide really free?",
+      "a": "Yes. Download the 8-page starter guide with no payment and no obligation."
+    },
+    {
+      "q": "Is coaching the same as therapy?",
+      "a": "No. Coaching is forward-looking and practical. It isn't a replacement for therapy or medical care, and Ella will suggest other support if that would help you more."
+    },
+    {
+      "q": "How do I know which package is right for me?",
+      "a": "Book a free 20-minute discovery call. Ella will listen to where you are and recommend the best fit."
+    }
+  ]
+}
