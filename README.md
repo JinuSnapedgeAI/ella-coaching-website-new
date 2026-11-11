@@ -9,5 +9,4 @@ Website for Ella's confidence and mindset coaching practice. Built with Next.js.
 
 ## Image credits (Unsplash License, free to use)
 - Hero photo: Marek Piwnicki – https://unsplash.com/photos/misty-mountain-peaks-at-sunrise-with-soft-pastel-sky-A1IoRfRQHuk
-- About portrait: Atul Pandey – https://unsplash.com/photos/a-woman-with-long-dark-hair-smiles-softly-outdoors-xxrz4LJutjA
-  (stock photo placeholder – replace `public/img/photos/about.webp` with Ella's own photo)
+- About portrait: supplied by the site owner (`public/img/photos/about.webp`)

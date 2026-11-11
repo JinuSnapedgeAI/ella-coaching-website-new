@@ -19,7 +19,7 @@ export default function About() {
           <Image
             className="coach-art coach-portrait"
             src="/img/photos/about.webp"
-            alt="Smiling confidence and mindset coach outdoors in soft natural light"
+            alt="Portrait of Ella, confidence and mindset coach"
             width={800}
             height={1000}
           />
