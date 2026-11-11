@@ -1,4 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A plant growing tall"><rect width="800" height="500" fill="#d5e2d6"/><circle cx="600" cy="140" r="90" fill="#fbe3c8"/><circle cx="200" cy="340" r="180" fill="#e3dcef" opacity=".8"/><path d="M0 430 Q200 400 400 430 T800 420 V500 H0Z" fill="#a9c3ad"/>
-<path d="M400 440 C395 340 405 260 400 130" stroke="#6f9475" stroke-width="12" stroke-linecap="round" fill="none"/>
-<g fill="#7fa886"><path d="M400 380 C320 380 280 330 270 290 C350 290 395 330 400 380Z"/><path d="M400 320 C480 320 520 270 530 230 C450 230 405 270 400 320Z"/><path d="M400 250 C330 250 300 210 290 170 C360 170 395 210 400 250Z"/></g>
-<path d="M400 130 C360 100 360 60 400 30 C440 60 440 100 400 130Z" fill="#eab7ae"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A flourishing tree in full bloom — 12-week program">
+<defs>
+<radialGradient id="skyGlow" cx=".5" cy=".3" r=".5"><stop offset="0" stop-color="#fff8ed" stop-opacity=".3"/><stop offset="1" stop-color="#d5e2d6" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="800" height="500" fill="#d5e2d6"/>
+<rect width="800" height="500" fill="url(#skyGlow)"/>
+<!-- sun -->
+<circle cx="600" cy="100" r="70" fill="#fbe3c8" opacity=".5"/>
+<circle cx="600" cy="100" r="45" fill="#fff8ed" opacity=".4"/>
+<!-- ground -->
+<path d="M0 420 Q200 400 400 415 T800 405 V500 H0Z" fill="#a9c3ad"/>
+<path d="M0 440 Q200 430 400 438 T800 432 V500 H0Z" fill="#8fb894" opacity=".5"/>
+<!-- decorative background circles -->
+<circle cx="180" cy="320" r="140" fill="#e3dcef" opacity=".35"/>
+<circle cx="650" cy="360" r="100" fill="#f2d5cf" opacity=".25"/>
+<!-- trunk -->
+<path d="M400 430 C395 380 398 320 400 260 C402 200 405 170 400 130" stroke="#8f7660" stroke-width="18" stroke-linecap="round" fill="none"/>
+<!-- trunk texture -->
+<path d="M392 400 C390 370 394 340 392 310" stroke="#7a6555" stroke-width="3" fill="none" opacity=".3"/>
+<path d="M408 380 C410 350 406 320 408 290" stroke="#7a6555" stroke-width="3" fill="none" opacity=".3"/>
+<!-- roots -->
+<path d="M400 430 C370 440 340 445 320 438" stroke="#8f7660" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M400 430 C430 442 460 445 480 440" stroke="#8f7660" stroke-width="6" stroke-linecap="round" fill="none"/>
+<!-- branches -->
+<path d="M400 260 C350 230 310 200 280 160" stroke="#8f7660" stroke-width="10" stroke-linecap="round" fill="none"/>
+<path d="M400 240 C440 210 480 185 520 170" stroke="#8f7660" stroke-width="10" stroke-linecap="round" fill="none"/>
+<path d="M400 200 C370 170 340 150 310 120" stroke="#8f7660" stroke-width="7" stroke-linecap="round" fill="none"/>
+<path d="M400 180 C430 155 460 140 500 120" stroke="#8f7660" stroke-width="7" stroke-linecap="round" fill="none"/>
+<path d="M400 160 C380 130 360 110 350 80" stroke="#8f7660" stroke-width="5" stroke-linecap="round" fill="none"/>
+<path d="M400 150 C420 120 440 100 460 75" stroke="#8f7660" stroke-width="5" stroke-linecap="round" fill="none"/>
+<!-- leaf clusters (canopy) -->
+<g opacity=".85">
+<!-- large leaf clusters -->
+<circle cx="280" cy="150" r="50" fill="#7fa886"/>
+<circle cx="320" cy="110" r="45" fill="#8fb894"/>
+<circle cx="360" cy="80" r="40" fill="#7fa886"/>
+<circle cx="400" cy="70" r="45" fill="#8fb894"/>
+<circle cx="440" cy="80" r="42" fill="#7fa886"/>
+<circle cx="480" cy="110" r="45" fill="#8fb894"/>
+<circle cx="520" cy="155" r="48" fill="#7fa886"/>
+<circle cx="500" cy="120" r="40" fill="#a9c3ad"/>
+<circle cx="300" cy="130" r="35" fill="#a9c3ad"/>
+<circle cx="400" cy="100" r="50" fill="#a9c3ad" opacity=".7"/>
+<circle cx="350" cy="90" r="30" fill="#bcd2bf" opacity=".6"/>
+<circle cx="460" cy="95" r="30" fill="#bcd2bf" opacity=".6"/>
+</g>
+<!-- flowers on tree -->
+<g opacity=".8">
+<g transform="translate(300 100)"><circle r="8" fill="#f2d5cf"/><circle cx="-6" cy="-6" r="5" fill="#eab7ae"/><circle cx="6" cy="-6" r="5" fill="#eab7ae"/><circle r="4" fill="#fbe3c8"/></g>
+<g transform="translate(380 65)"><circle r="7" fill="#f2d5cf"/><circle cx="-5" cy="-5" r="4" fill="#eab7ae"/><circle cx="5" cy="-5" r="4" fill="#eab7ae"/><circle r="3" fill="#fbe3c8"/></g>
+<g transform="translate(460 90)"><circle r="8" fill="#f2d5cf"/><circle cx="-6" cy="-6" r="5" fill="#eab7ae"/><circle cx="6" cy="-6" r="5" fill="#eab7ae"/><circle r="4" fill="#fbe3c8"/></g>
+<g transform="translate(500 140)"><circle r="6" fill="#f2d5cf"/><circle cx="-5" cy="-4" r="4" fill="#eab7ae"/><circle cx="5" cy="-4" r="4" fill="#eab7ae"/><circle r="3" fill="#fbe3c8"/></g>
+<g transform="translate(270 165)"><circle r="6" fill="#f2d5cf"/><circle cx="-5" cy="-4" r="4" fill="#eab7ae"/><circle cx="5" cy="-4" r="4" fill="#eab7ae"/><circle r="3" fill="#fbe3c8"/></g>
+<g transform="translate(420 75)"><circle r="6" fill="#e3dcef"/><circle cx="-4" cy="-4" r="4" fill="#d9d2ea"/><circle cx="4" cy="-4" r="4" fill="#d9d2ea"/><circle r="3" fill="#fbe3c8"/></g>
+</g>
+<!-- falling petals -->
+<g opacity=".4">
+<ellipse cx="250" cy="250" rx="6" ry="4" fill="#f2d5cf" transform="rotate(30 250 250)"/>
+<ellipse cx="550" cy="280" rx="5" ry="3" fill="#eab7ae" transform="rotate(-20 550 280)"/>
+<ellipse cx="320" cy="300" rx="5" ry="3" fill="#f4cfc7" transform="rotate(45 320 300)"/>
+<ellipse cx="480" cy="320" rx="4" ry="3" fill="#f2d5cf" transform="rotate(-35 480 320)"/>
+</g>
+<!-- ground flowers -->
+<g opacity=".5">
+<circle cx="200" cy="425" r="5" fill="#f2d5cf"/><circle cx="200" cy="425" r="2" fill="#fbe3c8"/>
+<circle cx="600" cy="418" r="5" fill="#e3dcef"/><circle cx="600" cy="418" r="2" fill="#fbe3c8"/>
+<circle cx="320" cy="432" r="4" fill="#f2d5cf"/><circle cx="480" cy="428" r="4" fill="#eab7ae"/>
+</g>
+<!-- sparkles -->
+<g fill="#fffaf6" opacity=".5">
+<circle cx="200" cy="80" r="3"/><circle cx="620" cy="60" r="3"/>
+<circle cx="150" cy="200" r="2"/><circle cx="680" cy="180" r="2"/>
+<path d="M160 120 C163 135 168 140 185 142 C168 144 163 149 160 164 C157 149 152 144 135 142 C152 140 157 135 160 120Z" opacity=".5"/>
+</g>
+<!-- butterflies -->
+<g transform="translate(220 200) scale(.6)" opacity=".35">
+<path d="M0 0 C-12 -10 -18 -6 -14 2 C-18 10 -12 14 0 4Z" fill="#e3dcef"/>
+<path d="M0 0 C12 -10 18 -6 14 2 C18 10 12 14 0 4Z" fill="#f2d5cf"/>
+</g>
+<g transform="translate(600 250) scale(.4)" opacity=".3">
+<path d="M0 0 C-12 -10 -18 -6 -14 2 C-18 10 -12 14 0 4Z" fill="#d5e2d6"/>
+<path d="M0 0 C12 -10 18 -6 14 2 C18 10 12 14 0 4Z" fill="#e3dcef"/>
+</g>
+</svg>

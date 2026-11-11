@@ -9,7 +9,12 @@ html:has(.coach-theme) {
   --coach-blush: #f2d5cf; --coach-sage: #d5e2d6; --coach-lav: #e3dcef;
 }
 .coach-theme .intro__background, .bottom__background { display: none; }
-.coach-theme .main-image-1 { background: url("/img/art/hero.svg") center / cover no-repeat, #f2d5cf; }
+.coach-theme .main-image-1 {
+  background:
+    linear-gradient(180deg, rgba(247, 240, 234, 0) 35%, rgba(247, 232, 226, 0.45) 100%),
+    linear-gradient(0deg, rgba(227, 220, 239, 0.28), rgba(242, 213, 207, 0.28)),
+    url("/img/photos/hero.webp") center / cover no-repeat, #f2d5cf;
+}
 .coach-theme .coach-lead { max-width: 60rem; }
 .coach-theme .coach-card {
   background: var(--base-tint); border: 1px solid var(--stroke-elements);

@@ -1,16 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Illustrated portrait of Ella, a friendly confidence coach">
-<rect width="800" height="1000" fill="#f2d5cf"/>
-<path d="M120 1000 V420 C120 210 260 90 400 90 C540 90 680 210 680 420 V1000Z" fill="#e3dcef"/>
-<circle cx="610" cy="250" r="70" fill="#fbe3c8"/>
-<g fill="#d5e2d6"><circle cx="190" cy="800" r="120"/><circle cx="640" cy="850" r="90"/></g>
-<path d="M170 1000 C170 800 260 740 400 740 C540 740 630 800 630 1000Z" fill="#a9c3ad"/>
-<path d="M330 740 L400 860 L470 740Z" fill="#fffaf6"/>
-<rect x="362" y="620" width="76" height="130" rx="34" fill="#e8b9a6"/>
-<ellipse cx="400" cy="500" rx="125" ry="150" fill="#f1c9b8"/>
-<path d="M270 500 C250 330 340 290 410 300 C500 308 560 370 530 520 C515 440 470 395 400 395 C330 395 290 440 270 500Z" fill="#4a3f4f"/>
-<path d="M270 500 C240 560 250 650 300 700 C285 620 285 560 290 520Z" fill="#4a3f4f"/>
-<path d="M530 500 C560 560 550 650 500 700 C515 620 515 560 510 520Z" fill="#4a3f4f"/>
-<path d="M352 560 Q400 600 448 560" stroke="#b86f64" stroke-width="8" stroke-linecap="round" fill="none"/>
-<circle cx="350" cy="505" r="8" fill="#4a3f4f"/><circle cx="450" cy="505" r="8" fill="#4a3f4f"/>
-<circle cx="335" cy="545" r="16" fill="#eaa79b" opacity=".5"/><circle cx="465" cy="545" r="16" fill="#eaa79b" opacity=".5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Illustrated portrait of Ella, a warm and approachable confidence and mindset coach">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f0ea"/><stop offset="1" stop-color="#f2d5cf"/></linearGradient>
+<radialGradient id="warmGlow" cx=".5" cy=".35" r=".5"><stop offset="0" stop-color="#fff8ed" stop-opacity=".4"/><stop offset="1" stop-color="#f2d5cf" stop-opacity="0"/></radialGradient>
+</defs>
+<!-- background -->
+<rect width="800" height="1000" fill="url(#bg)"/>
+<circle cx="400" cy="350" r="300" fill="url(#warmGlow)"/>
+<!-- decorative leaves behind -->
+<g opacity=".3">
+<path d="M80 800 C100 720 140 700 180 740 C140 760 110 790 80 800Z" fill="#a9c3ad"/>
+<path d="M60 850 C90 780 120 770 150 800 C120 820 90 840 60 850Z" fill="#bcd2bf"/>
+<path d="M720 780 C700 710 660 700 630 730 C660 750 690 770 720 780Z" fill="#a9c3ad"/>
+<path d="M740 830 C710 770 680 760 650 790 C680 810 710 830 740 830Z" fill="#bcd2bf"/>
+</g>
+<!-- decorative circles -->
+<circle cx="160" cy="820" r="90" fill="#d5e2d6" opacity=".4"/>
+<circle cx="650" cy="860" r="70" fill="#e3dcef" opacity=".4"/>
+<circle cx="680" cy="220" r="50" fill="#fbe3c8" opacity=".3"/>
+<!-- body / outfit -->
+<path d="M180 1000 C180 830 270 760 400 760 C530 760 620 830 620 1000Z" fill="#8f7aa8"/>
+<!-- neckline detail -->
+<path d="M340 760 L400 850 L460 760Z" fill="#fffaf6"/>
+<!-- subtle pattern on outfit -->
+<g opacity=".1" fill="#fffaf6">
+<circle cx="300" cy="880" r="15"/><circle cx="500" cy="900" r="12"/>
+<circle cx="350" cy="950" r="10"/><circle cx="450" cy="960" r="8"/>
+</g>
+<!-- neck -->
+<rect x="370" y="630" width="60" height="140" rx="28" fill="#e8b9a6"/>
+<!-- necklace -->
+<path d="M360 760 Q400 790 440 760" stroke="#d5c4a0" stroke-width="3" fill="none"/>
+<circle cx="400" cy="785" r="6" fill="#d5c4a0"/>
+<!-- head -->
+<ellipse cx="400" cy="490" rx="130" ry="158" fill="#f1c9b8"/>
+<!-- ears -->
+<ellipse cx="268" cy="500" rx="18" ry="28" fill="#e8b0a0"/>
+<ellipse cx="532" cy="500" rx="18" ry="28" fill="#e8b0a0"/>
+<!-- earrings -->
+<circle cx="268" cy="535" r="6" fill="#d5c4a0"/>
+<circle cx="532" cy="535" r="6" fill="#d5c4a0"/>
+<!-- hair -->
+<path d="M265 500 C240 340 330 270 410 280 C510 290 570 360 540 520 C520 420 475 370 400 370 C325 370 285 420 265 500Z" fill="#4a3f4f"/>
+<!-- hair wave left -->
+<path d="M265 500 C245 580 250 670 300 720 C285 640 280 570 285 520Z" fill="#4a3f4f"/>
+<path d="M258 530 C240 600 242 680 280 740" stroke="#3d3342" stroke-width="6" fill="none" opacity=".3"/>
+<!-- hair wave right -->
+<path d="M540 490 C560 570 555 660 510 720 C520 640 520 570 515 510Z" fill="#4a3f4f"/>
+<path d="M545 520 C560 590 558 670 530 730" stroke="#3d3342" stroke-width="6" fill="none" opacity=".3"/>
+<!-- hair highlights -->
+<path d="M310 310 C340 290 380 285 400 290" stroke="#6a5a6f" stroke-width="4" fill="none" opacity=".4"/>
+<path d="M420 295 C460 310 490 340 500 370" stroke="#6a5a6f" stroke-width="4" fill="none" opacity=".4"/>
+<!-- eyebrows -->
+<path d="M320 445 C340 435 360 438 370 445" stroke="#4a3f4f" stroke-width="5" stroke-linecap="round" fill="none"/>
+<path d="M430 445 C440 438 460 435 480 445" stroke="#4a3f4f" stroke-width="5" stroke-linecap="round" fill="none"/>
+<!-- eyes -->
+<ellipse cx="348" cy="478" rx="16" ry="18" fill="#fff"/>
+<ellipse cx="452" cy="478" rx="16" ry="18" fill="#fff"/>
+<circle cx="350" cy="480" r="10" fill="#4a3f4f"/>
+<circle cx="450" cy="480" r="10" fill="#4a3f4f"/>
+<circle cx="354" cy="475" r="3" fill="#fff"/>
+<circle cx="454" cy="475" r="3" fill="#fff"/>
+<!-- nose -->
+<path d="M395 520 C400 530 405 530 410 522" stroke="#d4a090" stroke-width="3" stroke-linecap="round" fill="none"/>
+<!-- warm smile -->
+<path d="M355 555 Q400 590 445 555" stroke="#c98f86" stroke-width="6" stroke-linecap="round" fill="none"/>
+<!-- smile teeth hint -->
+<path d="M370 560 Q400 578 430 560" fill="#fff" opacity=".5"/>
+<!-- blush -->
+<circle cx="320" cy="535" r="20" fill="#eaa79b" opacity=".35"/>
+<circle cx="480" cy="535" r="20" fill="#eaa79b" opacity=".35"/>
+<!-- freckles (subtle) -->
+<g fill="#d4a090" opacity=".3">
+<circle cx="340" cy="510" r="2"/><circle cx="355" cy="515" r="2"/><circle cx="350" cy="525" r="2"/>
+<circle cx="450" cy="510" r="2"/><circle cx="460" cy="518" r="2"/><circle cx="455" cy="528" r="2"/>
+</g>
+<!-- floating elements around -->
+<g opacity=".25">
+<path d="M120 300 C125 320 132 325 155 328 C132 331 125 336 120 356 C115 336 108 331 85 328 C108 325 115 320 120 300Z" fill="#fffaf6"/>
+<path d="M680 400 C683 415 688 418 705 420 C688 422 683 425 680 440 C677 425 672 422 655 420 C672 418 677 415 680 400Z" fill="#fffaf6"/>
+<circle cx="150" cy="200" r="4" fill="#fffaf6"/>
+<circle cx="650" cy="150" r="3" fill="#fffaf6"/>
+</g>
+<!-- small butterfly near shoulder -->
+<g transform="translate(600 680) scale(.6)" opacity=".45">
+<path d="M0 0 C-12 -10 -18 -6 -14 2 C-18 10 -12 14 0 4Z" fill="#e3dcef"/>
+<path d="M0 0 C12 -10 18 -6 14 2 C18 10 12 14 0 4Z" fill="#d5e2d6"/>
+</g>
 </svg>

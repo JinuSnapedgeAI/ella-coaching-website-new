@@ -1,2 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A blooming lotus flower"><rect width="800" height="500" fill="#e3dcef"/><circle cx="400" cy="260" r="210" fill="#f2d5cf" opacity=".7"/><path d="M0 420 Q200 380 400 420 T800 410 V500 H0Z" fill="#d5e2d6"/>
-<g transform="translate(400 400)"><path d="M0 0 C-150 -20 -190 -130 -150 -200 C-60 -170 -20 -90 0 0Z" fill="#eab7ae"/><path d="M0 0 C150 -20 190 -130 150 -200 C60 -170 20 -90 0 0Z" fill="#eab7ae"/><path d="M0 0 C-90 -50 -100 -170 -50 -250 C20 -190 20 -90 0 0Z" fill="#f4cfc7"/><path d="M0 0 C90 -50 100 -170 50 -250 C-20 -190 -20 -90 0 0Z" fill="#f4cfc7"/><path d="M0 0 C-40 -80 -30 -190 0 -270 C30 -190 40 -80 0 0Z" fill="#fff0ea"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A blooming lotus flower representing growth — 6-week program">
+<defs>
+<radialGradient id="lotusGlow" cx=".5" cy=".7" r=".45"><stop offset="0" stop-color="#fff8ed" stop-opacity=".5"/><stop offset="1" stop-color="#e3dcef" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="800" height="500" fill="#e3dcef"/>
+<rect width="800" height="500" fill="url(#lotusGlow)"/>
+<!-- water surface -->
+<path d="M0 400 Q100 385 200 395 T400 400 T600 390 T800 395 V500 H0Z" fill="#d5e2d6" opacity=".5"/>
+<path d="M0 420 Q150 410 300 420 T600 415 T800 420 V500 H0Z" fill="#d5e2d6" opacity=".7"/>
+<path d="M0 440 Q200 432 400 440 T800 435 V500 H0Z" fill="#bcd2bf" opacity=".5"/>
+<!-- water ripples -->
+<ellipse cx="400" cy="430" rx="120" ry="8" fill="none" stroke="#a9c3ad" stroke-width="1" opacity=".3"/>
+<ellipse cx="400" cy="445" rx="160" ry="10" fill="none" stroke="#a9c3ad" stroke-width="1" opacity=".2"/>
+<!-- lotus stem -->
+<path d="M400 420 C398 390 402 370 400 340" stroke="#7fa886" stroke-width="4" fill="none"/>
+<!-- lotus flower -->
+<g transform="translate(400 350)">
+<!-- back petals -->
+<path d="M0 0 C-80 -30 -110 -90 -90 -150 C-40 -110 -10 -60 0 0Z" fill="#eab7ae" opacity=".7"/>
+<path d="M0 0 C80 -30 110 -90 90 -150 C40 -110 10 -60 0 0Z" fill="#eab7ae" opacity=".7"/>
+<path d="M0 0 C-120 -10 -150 -60 -120 -120 C-60 -90 -20 -50 0 0Z" fill="#f4cfc7" opacity=".5"/>
+<path d="M0 0 C120 -10 150 -60 120 -120 C60 -90 20 -50 0 0Z" fill="#f4cfc7" opacity=".5"/>
+<!-- middle petals -->
+<path d="M0 0 C-60 -40 -75 -110 -45 -180 C-5 -130 -5 -60 0 0Z" fill="#f4cfc7"/>
+<path d="M0 0 C60 -40 75 -110 45 -180 C5 -130 5 -60 0 0Z" fill="#f4cfc7"/>
+<!-- inner petals -->
+<path d="M0 0 C-35 -55 -35 -130 0 -200 C35 -130 35 -55 0 0Z" fill="#fff0ea"/>
+<!-- center glow -->
+<circle cx="0" cy="-50" r="15" fill="#fbe3c8" opacity=".6"/>
+<!-- stamen dots -->
+<g fill="#d5c4a0" opacity=".6">
+<circle cx="-8" cy="-65" r="3"/><circle cx="8" cy="-65" r="3"/>
+<circle cx="0" cy="-75" r="3"/><circle cx="-5" cy="-55" r="2"/>
+<circle cx="5" cy="-55" r="2"/>
+</g>
+</g>
+<!-- floating leaf pads -->
+<ellipse cx="240" cy="430" rx="50" ry="15" fill="#a9c3ad" opacity=".4"/>
+<ellipse cx="580" cy="425" rx="40" ry="12" fill="#a9c3ad" opacity=".35"/>
+<!-- small buds -->
+<g opacity=".4">
+<path d="M250 410 C248 395 252 385 250 375" stroke="#7fa886" stroke-width="2" fill="none"/>
+<path d="M250 378 C245 372 248 365 252 370 C256 365 258 372 250 378Z" fill="#f2d5cf"/>
+<path d="M570 405 C568 392 572 385 570 378" stroke="#7fa886" stroke-width="2" fill="none"/>
+<path d="M570 380 C565 375 568 368 572 373 C576 368 578 375 570 380Z" fill="#eab7ae"/>
+</g>
+<!-- sparkles -->
+<g fill="#fffaf6" opacity=".5">
+<circle cx="320" cy="200" r="3"/><circle cx="500" cy="180" r="3"/>
+<circle cx="180" cy="300" r="2"/><circle cx="640" cy="280" r="2"/>
+<path d="M340 130 C343 145 348 150 365 152 C348 154 343 159 340 174 C337 159 332 154 315 152 C332 150 337 145 340 130Z" opacity=".6"/>
+</g>
+<!-- butterflies -->
+<g transform="translate(560 200) scale(.5)" opacity=".3">
+<path d="M0 0 C-12 -10 -18 -6 -14 2 C-18 10 -12 14 0 4Z" fill="#f2d5cf"/>
+<path d="M0 0 C12 -10 18 -6 14 2 C18 10 12 14 0 4Z" fill="#e3dcef"/>
+</g>
+</svg>

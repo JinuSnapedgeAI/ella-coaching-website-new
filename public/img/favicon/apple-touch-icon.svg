@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+<rect width="180" height="180" rx="40" fill="#4a3f4f"/>
+<circle cx="90" cy="100" r="30" fill="#fbe3c8"/>
+<circle cx="90" cy="100" r="20" fill="#fff8ed" opacity=".7"/>
+<g stroke="#fbe3c8" stroke-width="2.5" stroke-linecap="round" opacity=".5">
+<line x1="90" y1="64" x2="90" y2="55"/><line x1="108" y1="72" x2="114" y2="65"/>
+<line x1="72" y1="72" x2="66" y2="65"/><line x1="115" y1="95" x2="122" y2="93"/>
+<line x1="65" y1="95" x2="58" y2="93"/>
+</g>
+<path d="M20 120 Q55 105 90 115 T160 108 V155 Q160 180 140 180 H40 Q20 180 20 155Z" fill="#d5e2d6"/>
+<g transform="translate(90 55)">
+<path d="M0 0 C-16 -14 -24 -8 -19 3 C-24 14 -16 18 0 5Z" fill="#f2d5cf" opacity=".9"/>
+<path d="M0 0 C16 -14 24 -8 19 3 C24 14 16 18 0 5Z" fill="#e3dcef" opacity=".9"/>
+<line x1="0" y1="-5" x2="0" y2="8" stroke="#fffaf6" stroke-width="1.5"/>
+</g>
+<circle cx="130" cy="42" r="4" fill="#fffaf6" opacity=".5"/>
+<circle cx="55" cy="48" r="3" fill="#fffaf6" opacity=".3"/>
+</svg>

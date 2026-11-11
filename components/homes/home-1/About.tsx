@@ -18,9 +18,8 @@ export default function About() {
         <div className="col-12 col-md-5 animate-in-up">
           <Image
             className="coach-art coach-portrait"
-            src="/img/art/about.svg"
-            alt="Illustrated portrait of Ella, confidence and mindset coach"
-            unoptimized
+            src="/img/photos/about.webp"
+            alt="Smiling confidence and mindset coach outdoors in soft natural light"
             width={800}
             height={1000}
           />

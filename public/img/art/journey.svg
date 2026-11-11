@@ -1,5 +1,97 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 420" role="img" aria-label="Six stepping stones rising toward the sun, one for each week"><defs><linearGradient id="g" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#e3dcef"/><stop offset="1" stop-color="#f2d5cf"/></linearGradient></defs>
-<rect width="1400" height="420" fill="url(#g)"/><circle cx="1230" cy="70" r="60" fill="#fbe3c8"/>
-<g fill="#fffaf6"><rect x="80" y="320" width="180" height="40" rx="20"/><rect x="290" y="280" width="180" height="40" rx="20"/><rect x="500" y="240" width="180" height="40" rx="20"/><rect x="710" y="200" width="180" height="40" rx="20"/><rect x="920" y="160" width="180" height="40" rx="20"/></g>
-<rect x="1130" y="120" width="180" height="40" rx="20" fill="#d5e2d6"/>
-<g fill="#6a6070" font-family="Arial, sans-serif" font-size="18" text-anchor="middle"><text x="170" y="346">Week 1</text><text x="380" y="306">Week 2</text><text x="590" y="266">Week 3</text><text x="800" y="226">Week 4</text><text x="1010" y="186">Week 5</text><text x="1220" y="146">Week 6</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 420" role="img" aria-label="Six stepping stones rising toward the sun, one for each week of the confidence program">
+<defs>
+<linearGradient id="g" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#e3dcef"/><stop offset=".5" stop-color="#f2d5cf"/><stop offset="1" stop-color="#f7e6d8"/></linearGradient>
+<radialGradient id="sunGlow" cx=".88" cy=".15" r=".25"><stop offset="0" stop-color="#fff6e6" stop-opacity=".9"/><stop offset="1" stop-color="#fbe3c8" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1400" height="420" fill="url(#g)"/>
+<rect width="1400" height="420" fill="url(#sunGlow)"/>
+<!-- sun -->
+<circle cx="1270" cy="60" r="50" fill="#fbe3c8"/>
+<circle cx="1270" cy="60" r="35" fill="#fff8ed" opacity=".6"/>
+<!-- sun rays -->
+<g stroke="#fbe3c8" stroke-width="2" opacity=".3">
+<line x1="1270" y1="0" x2="1270" y2="-10"/><line x1="1310" y1="25" x2="1325" y2="15"/>
+<line x1="1325" y1="60" x2="1340" y2="60"/><line x1="1310" y1="95" x2="1325" y2="105"/>
+<line x1="1230" y1="25" x2="1215" y2="15"/><line x1="1215" y1="60" x2="1200" y2="60"/>
+</g>
+<!-- path/trail connecting stones -->
+<path d="M130 345 C200 320 250 310 340 295 C430 280 470 270 560 255 C650 240 690 230 780 215 C870 200 910 190 1000 175 C1090 160 1130 150 1180 140" stroke="#d5c4a0" stroke-width="2" stroke-dasharray="8 6" fill="none" opacity=".4"/>
+<!-- stepping stones with growth -->
+<!-- Week 1 - seed -->
+<g>
+<rect x="60" y="325" width="180" height="44" rx="22" fill="#fffaf6"/>
+<rect x="60" y="325" width="180" height="44" rx="22" fill="#e3dcef" opacity=".15"/>
+<circle cx="60" cy="325" r="8" fill="#d5e2d6" opacity=".6"/>
+</g>
+<!-- Week 2 - sprout -->
+<g>
+<rect x="270" y="280" width="180" height="44" rx="22" fill="#fffaf6"/>
+<path d="M360 280 C358 265 362 255 360 245" stroke="#8fb894" stroke-width="3" fill="none"/>
+<path d="M360 260 C350 255 345 248 348 240" stroke="#8fb894" stroke-width="2" fill="none"/>
+<circle cx="348" cy="238" r="5" fill="#d5e2d6"/>
+</g>
+<!-- Week 3 - growing -->
+<g>
+<rect x="480" y="238" width="180" height="44" rx="22" fill="#fffaf6"/>
+<path d="M570 238 C568 215 572 200 570 185" stroke="#8fb894" stroke-width="3" fill="none"/>
+<path d="M570 215 C558 208 554 198 558 190" stroke="#7fa886" stroke-width="2" fill="none"/>
+<path d="M570 200 C582 193 586 183 582 175" stroke="#7fa886" stroke-width="2" fill="none"/>
+<circle cx="558" cy="188" r="5" fill="#d5e2d6"/>
+<circle cx="582" cy="173" r="5" fill="#d5e2d6"/>
+</g>
+<!-- Week 4 - budding -->
+<g>
+<rect x="690" y="198" width="180" height="44" rx="22" fill="#fffaf6"/>
+<path d="M780 198 C778 168 782 148 780 128" stroke="#8fb894" stroke-width="3" fill="none"/>
+<path d="M780 170 C765 160 760 148 766 138" stroke="#7fa886" stroke-width="2" fill="none"/>
+<path d="M780 150 C795 140 800 128 794 118" stroke="#7fa886" stroke-width="2" fill="none"/>
+<circle cx="766" cy="136" r="6" fill="#d5e2d6"/>
+<circle cx="794" cy="116" r="6" fill="#d5e2d6"/>
+<circle cx="780" cy="124" r="5" fill="#eab7ae" opacity=".6"/>
+</g>
+<!-- Week 5 - blooming -->
+<g>
+<rect x="900" y="158" width="180" height="44" rx="22" fill="#fffaf6"/>
+<path d="M990 158 C988 125 992 105 990 80" stroke="#8fb894" stroke-width="3" fill="none"/>
+<path d="M990 130 C975 118 970 105 976 94" stroke="#7fa886" stroke-width="2" fill="none"/>
+<path d="M990 110 C1005 98 1010 85 1004 74" stroke="#7fa886" stroke-width="2" fill="none"/>
+<circle cx="976" cy="92" r="7" fill="#d5e2d6"/>
+<circle cx="1004" cy="72" r="7" fill="#d5e2d6"/>
+<!-- small flower -->
+<g transform="translate(990 75)">
+<circle cx="-6" cy="-6" r="5" fill="#f2d5cf"/><circle cx="6" cy="-6" r="5" fill="#f2d5cf"/>
+<circle cx="-6" cy="4" r="5" fill="#f2d5cf"/><circle cx="6" cy="4" r="5" fill="#f2d5cf"/>
+<circle cx="0" cy="0" r="4" fill="#fbe3c8"/>
+</g>
+</g>
+<!-- Week 6 - full bloom (highlighted) -->
+<g>
+<rect x="1110" y="118" width="180" height="44" rx="22" fill="#d5e2d6"/>
+<path d="M1200 118 C1198 80 1202 55 1200 30" stroke="#6f9475" stroke-width="4" fill="none"/>
+<path d="M1200 90 C1182 76 1178 60 1185 48" stroke="#7fa886" stroke-width="3" fill="none"/>
+<path d="M1200 65 C1218 51 1222 35 1215 23" stroke="#7fa886" stroke-width="3" fill="none"/>
+<circle cx="1185" cy="46" r="8" fill="#a9c3ad"/>
+<circle cx="1215" cy="21" r="8" fill="#a9c3ad"/>
+<!-- blooming flower -->
+<g transform="translate(1200 25)">
+<circle cx="-10" cy="-10" r="8" fill="#f2d5cf"/><circle cx="10" cy="-10" r="8" fill="#f2d5cf"/>
+<circle cx="-10" cy="6" r="8" fill="#eab7ae"/><circle cx="10" cy="6" r="8" fill="#eab7ae"/>
+<circle cx="0" cy="-12" r="7" fill="#f4cfc7"/><circle cx="0" cy="8" r="7" fill="#f4cfc7"/>
+<circle cx="0" cy="0" r="6" fill="#fbe3c8"/>
+</g>
+<!-- sparkles -->
+<circle cx="1160" cy="50" r="3" fill="#fffaf6" opacity=".7"/>
+<circle cx="1240" cy="40" r="2" fill="#fffaf6" opacity=".7"/>
+</g>
+<!-- week labels -->
+<g fill="#6a6070" font-family="system-ui, sans-serif" font-size="16" text-anchor="middle" font-weight="500">
+<text x="150" y="353">Week 1</text><text x="360" y="308">Week 2</text>
+<text x="570" y="266">Week 3</text><text x="780" y="226">Week 4</text>
+<text x="990" y="186">Week 5</text><text x="1200" y="146">Week 6</text>
+</g>
+<!-- small butterfly -->
+<g transform="translate(1300 90) scale(.5)" opacity=".35">
+<path d="M0 0 C-12 -10 -18 -6 -14 2 C-18 10 -12 14 0 4Z" fill="#e3dcef"/>
+<path d="M0 0 C12 -10 18 -6 14 2 C18 10 12 14 0 4Z" fill="#d5e2d6"/>
+</g>
+</svg>
