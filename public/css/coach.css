@@ -171,3 +171,8 @@ html:has(.coach-theme) {
 }
 .coach-theme .coach-card .btn-default .btn-caption { line-height: 1.2; }
 .coach-theme .coach-card ul { margin-bottom: 2.4rem; }
+
+/* Logo image */
+.coach-theme .logo__link .logo__image { width: auto; height: 6.4rem; padding: 0.4rem 0.8rem; }
+@media (min-width: 768px) { .coach-theme .logo__link .logo__image { height: 7.6rem; } }
+@media (min-width: 1400px) { .coach-theme .logo__link .logo__image { height: 8.6rem; } }

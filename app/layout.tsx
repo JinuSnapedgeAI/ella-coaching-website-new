@@ -79,6 +79,8 @@ const jsonLd = {
       name: "Ella – Confidence & Mindset Coaching",
       url: siteUrl,
       description,
+      logo: `${siteUrl}/img/logo.png`,
+      image: `${siteUrl}/img/logo.png`,
       serviceType: "Confidence and mindset coaching",
       areaServed: "Worldwide",
       hasOfferCatalog: {
